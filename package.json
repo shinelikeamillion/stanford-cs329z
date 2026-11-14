@@ -1,0 +1,26 @@
+{
+  "name": "stanford-cs329z",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Unofficial personal study notes for Stanford CS329Z: Engineering AI Agents (Fall 2026).",
+  "license": "CC-BY-NC-SA-4.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "lint": "markdownlint-cli2",
+    "lint:fix": "markdownlint-cli2 --fix",
+    "links": "lychee --config lychee.toml --no-progress './docs/**/*.md' README.md",
+    "check": "npm run lint && npm run build"
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "^0.24.1",
+    "mermaid": "^11.17.2",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}

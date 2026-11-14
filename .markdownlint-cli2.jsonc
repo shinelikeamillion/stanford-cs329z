@@ -1,0 +1,33 @@
+{
+  "globs": [
+    "README.md",
+    "CONTRIBUTING.md",
+    ".github/**/*.md",
+    "docs/**/*.md",
+    "templates/**/*.md"
+  ],
+  "ignores": [
+    "node_modules/**",
+    "docs/.vitepress/dist/**",
+    "docs/.vitepress/cache/**"
+  ],
+  "config": {
+    "default": true,
+    // CJK prose has no natural wrap points; keep one paragraph per line.
+    "MD013": false,
+    // Inline HTML is allowed (<details>, <br> in tables, VitePress components).
+    "MD033": false,
+    // Pages use frontmatter `title` AND a matching H1 (shown in the browser tab / on the page).
+    "MD025": { "front_matter_title": "" },
+    // Repeated headings such as "要点" are fine as long as they are not siblings.
+    "MD024": { "siblings_only": true },
+    // "Bold as heading" is used deliberately inside tables / callouts.
+    "MD036": false,
+    // Ordered lists use 1. 2. 3. numbering.
+    "MD029": { "style": "ordered" },
+    // First line may be frontmatter instead of an H1.
+    "MD041": false,
+    // VitePress ::: containers and Mermaid fences are code-like blocks.
+    "MD046": false
+  }
+}

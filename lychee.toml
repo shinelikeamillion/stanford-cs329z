@@ -1,0 +1,25 @@
+# Link checker configuration (https://lychee.cli.rs). Run: npm run links
+max_concurrency = 8
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+user_agent = "Mozilla/5.0 (compatible; stanford-cs329z-linkcheck)"
+# 429 = rate limited, 403 = bot walls on some publishers; both mean "page exists".
+accept = ["200..=299", "403", "429"]
+cache = true
+max_cache_age = "2d"
+scheme = ["https", "http"]
+exclude = [
+  # Require a Stanford / Ed login, cannot be checked anonymously
+  "^https://canvas\\.stanford\\.edu/",
+  "^https://edstem\\.org/",
+  # Bot-hostile social sites
+  "^https://(www\\.)?linkedin\\.com/",
+  "^https://(x|twitter)\\.com/",
+  # Google Calendar embed
+  "^https://calendar\\.google\\.com/",
+  # Placeholder/local addresses
+  "^https?://localhost",
+  "^https?://127\\.0\\.0\\.1"
+]
+exclude_path = ["node_modules", "docs/.vitepress/dist", "docs/.vitepress/cache"]

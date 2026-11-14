@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# VitePress build output and cache
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+
+# link-checker cache
+.lycheecache
+
+# local env / OS / editor
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.log
+
+# Copyrighted course material must never be committed (link to the official URL instead)
+*.pdf
+*.pptx
+*.key
+docs/public/slides/
+docs/public/assets/slides/
