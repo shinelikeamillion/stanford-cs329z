@@ -69,3 +69,4 @@ title: 资源汇总
 ## 课件中额外出现的资料
 
 - 来自 L01：[Reflexion](https://arxiv.org/abs/2303.11366)、[Self-Consistency](https://arxiv.org/abs/2203.11171)、[多智能体辩论](https://arxiv.org/abs/2305.14325)、[Voyager](https://arxiv.org/abs/2305.16291)、[Magentic-One](https://www.microsoft.com/en-us/research/publication/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/)、[Princeton HAL](https://hal.cs.princeton.edu/)、[HarnessAudit](https://harnessaudit.github.io/)、[METR 调查报告](https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/)。完整列表见 [L01 的延伸阅读](./lectures/lecture-01.md#延伸阅读与资源)。
+- 来自 L02：解码策略、DeltaNet、Kimi K3、DCLM、Nemotron-CC-Math、SWE-smith、Large Language Monkeys、SGLang、OOLONG、Recursive Language Models 等，按主题分组列在 [L02 的延伸阅读](./lectures/lecture-02.md#延伸阅读与资源)。

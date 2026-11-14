@@ -4,7 +4,7 @@ title: 讲义笔记总览
 
 # 讲义笔记总览
 
-每一讲一页，文件名是 `lecture-NN.md`。**L01 是完整样板**；其余各讲目前是占位页，只有标题、官方链接和官方阅读材料，之后按 `templates/lecture.md` 的八个部分逐讲补全。
+每一讲一页，文件名是 `lecture-NN.md`。**L01 是完整样板，L02 已完成**；其余各讲目前是占位页，只有标题、官方链接和官方阅读材料，之后按 `templates/lecture.md` 的八个部分逐讲补全。
 
 ## 每页的固定结构
 
@@ -22,7 +22,7 @@ title: 讲义笔记总览
 | 讲次 | 日期（PT） | 主题 | 笔记 |
 | --- | --- | --- | --- |
 | [L01](./lecture-01.md) | 2026-09-23 | 导论：什么是 Agentic Systems | 完成 |
-| [L02](./lecture-02.md) | 2026-09-28 | LLMs for Builders | 占位 |
+| [L02](./lecture-02.md) | 2026-09-28 | LLMs for Builders | 完成 |
 | [L03](./lecture-03.md) | 2026-09-30 | RAG | 占位 |
 | [L04](./lecture-04.md) | 2026-10-05 | Tool Use & Function Calling | 占位 |
 | [L05](./lecture-05.md) | 2026-10-07 | Frameworks & Orchestration | 占位 |

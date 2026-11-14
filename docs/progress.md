@@ -11,7 +11,7 @@ title: 学习进度
 | 讲次 | 主题 | 笔记 | 课件 | 视频 | 阅读 | 动手 |
 | --- | --- | --- | --- | --- | --- | --- |
 | [L01](./lectures/lecture-01.md) | 导论 | 完成 | ☑ | ☐ | ☐ | — |
-| [L02](./lectures/lecture-02.md) | LLMs for Builders | 占位 | ☐ | ☐ | ☐ | — |
+| [L02](./lectures/lecture-02.md) | LLMs for Builders | 完成 | ☐ | ☐ | ☐ | — |
 | [L03](./lectures/lecture-03.md) | RAG | 占位 | ☐ | ☐ | ☐ | — |
 | [L04](./lectures/lecture-04.md) | Tool Use & Function Calling | 占位 | ☐ | ☐ | ☐ | — |
 | [L05](./lectures/lecture-05.md) | Frameworks & Orchestration | 占位 | ☐ | ☐ | ☐ | ☐ |
@@ -42,6 +42,7 @@ title: 学习进度
 
 - [x] 脚手架：VitePress、lint、CI、Pages 部署工作流
 - [x] L01 完整笔记（样板）
-- [ ] 逐讲补全 L02–L19
+- [x] L02 完整笔记
+- [ ] 逐讲补全 L03–L19
 - [ ] 补充更多讨论页
 - [ ] 为 `docs/glossary.md` 随讲增补术语
