@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "markdownlint-cli2": "^0.24.1",
-    "mermaid": "^12.3.0",
+    "mermaid": "^11",
     "vitepress": "^1.6.4",
     "vitepress-plugin-mermaid": "^2.0.17"
   }
